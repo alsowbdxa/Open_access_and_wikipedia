@@ -1,3 +1,8 @@
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+from tqdm import tqdm
+tqdm.pandas()
 
 # read the doi from Wikipedia Citation dataset, wchih you can find here: https://github.com/Harshdeep1996/cite-classifications-wiki
 doi_list = []
